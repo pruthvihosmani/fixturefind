@@ -1,0 +1,57 @@
+/* Home.module.css */
+
+/* Page container */
+.pageContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0; /* Background color for the page */
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Form container */
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the Select component */
+.react-select-container {
+  width: 100%;
+  max-width: 300px; /* Adjust the width as needed */
+}
+
+/* Style for the Search button */
+.submitButton {
+  background-color: #3498db; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background-color: #2980b9; /* Darker color on hover */
+}
+
+/* Style for the Go to Details Page link */
+.detailsLink {
+  text-align: center;
+  font-size: 18px;
+  color: #3498db; /* Link color */
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.detailsLink:hover {
+  text-decoration: underline;
+}

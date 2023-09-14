@@ -1,0 +1,18 @@
+/* BackgroundImage.module.css */
+
+.background-image {
+    background-image: url('/Users/pruthvihosmani/Desktop/flask13sep/frontend/public/120.jpeg'); /* Replace with the actual path to your background image */
+    background-size: cover; /* Adjust background size as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh; /* Ensure the background covers the entire viewport height */
+    position: relative; /* Ensure children are positioned correctly */
+  }
+  
+  .page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for the content */
+  }
+  

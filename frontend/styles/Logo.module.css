@@ -1,0 +1,12 @@
+/* Logo.module.css */
+
+.logo {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Style for the logo image */
+.logo img {
+  max-width: 100%; /* Ensure the logo image does not exceed its container */
+  height: auto; /* Maintain the aspect ratio of the logo */
+}
