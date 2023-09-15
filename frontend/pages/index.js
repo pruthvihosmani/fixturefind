@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Select from 'react-select';
 import styles from '/Users/pruthvihosmani/Desktop/flask13sep/frontend/styles/styles.module.css'; // Import the styles
+import logo from '/Users/pruthvihosmani/Desktop/flask13sep/frontend/public/images/1200px-Logo_of_Bosch_Rexroth_AG.svg.png';
 
 const Home = () => {
   const [selectedAttribute, setSelectedAttribute] = useState('');
@@ -44,6 +45,9 @@ const Home = () => {
 
   return (
     <div className={styles.pageContainer}>
+       <div className="logo-container">
+          <img src={logo} alt="Logo" className="logo" />
+        </div>
       <h1 className={styles.heading}>Pump Search</h1>
       {isLoading ? (
         <p>Loading...</p>
