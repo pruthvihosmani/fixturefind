@@ -18,7 +18,7 @@ Open any terminal & run the below code in to clone the repo in your system.
 
 
 ```bash
-git clone https://github.com/Maneshgpai/PrivateGPT.git
+git clone https://github.com/pruthvihosmani/fixturefind.git
 ```
 
 ## Running the React.js Client
@@ -26,7 +26,7 @@ This is built with [Next.js](https://nextjs.org/) framework, which is based on [
 
 #### 1. Navigate to client folder
 ```bash
-cd PrivateGPT\client
+cd Fixturefind\frontend
 ```
 #### 2. Install the dependencies
 ```bash
@@ -47,13 +47,11 @@ npm run dev
 Open a new terminal
 
 ```bash
-cd PrivateGPT\server
+cd Fixturefind\backend
 ```
 
-#### 6. Paste server .env file in server folder
 
-
-#### 7. Create a Python virtual Environment
+#### 6. Create a Python virtual Environment
 
 Once you're in the server folder, enter the following command to create a virtual env:
 
