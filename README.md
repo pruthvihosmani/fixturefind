@@ -78,6 +78,10 @@ pip install -r requirements.txt
 
 #### 9. Run the server
 ```bash
+cd venv
+```
+
+```bash
 python3 app.py
 ```
 
